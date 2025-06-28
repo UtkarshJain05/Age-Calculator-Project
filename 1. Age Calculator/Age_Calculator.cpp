@@ -50,7 +50,7 @@
         }
 
         int MD = MonthDays(m, y); // MD = Month Days.
-        if (d < MD)
+        if (d <= MD)
         {
             return true;
         }
@@ -120,5 +120,6 @@
         cout << endl;
 
         calculator(CY, CM, CD, BY, BM, BD);
+
         return 0;
     }
